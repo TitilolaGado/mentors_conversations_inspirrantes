@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Les mentors de Conversations Inspirantes · Cohorte 2</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#explorer">Aller aux profils</a>
+  <header class="masthead shell">
+    <img src="assets/logo-fondation.png" alt="Fondation HYSTERESIS" width="144" height="75">
+    <nav class="header-links" aria-label="Navigation principale">
+      <a href="#explorer">Les mentors</a>
+      <a href="#opportunites">Expertises</a>
+      <a href="assets/Catalogue_mentors_Cohorte_2.pdf" download>Catalogue PDF</a>
+      <button id="selection-link" type="button">Ma sélection <span id="saved-count">0</span></button>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="intro" aria-labelledby="page-title">
+      <span class="cohort">Cohorte 2</span>
+      <h1 id="page-title">Les mentors de <span>Conversations Inspirantes</span></h1>
+      <p>Des expériences à partager pour vous aider à avancer</p>
+      <div class="hero-actions">
+        <a class="primary explore-link" href="#explorer">Explorer le catalogue <span aria-hidden="true">↓</span></a>
+        <button id="surprise" type="button">Découvrir un mentor <span aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+
+    <section aria-labelledby="portrait-title">
+      <h2 id="portrait-title" class="section-title">Les cinq mentors</h2>
+      <ul id="portraits" class="portraits"></ul>
+    </section>
+
+    <section id="explorer" class="explorer" aria-labelledby="explore-title" tabindex="-1">
+      <h2 id="explore-title">Explorer les parcours</h2>
+      <div class="controls">
+        <label>Rechercher un profil
+          <input id="search" type="search" placeholder="Nom, domaine ou compétence">
+        </label>
+        <label>Domaine d’expertise
+          <select id="opportunity"><option value="">Toutes les expertises</option></select>
+        </label>
+        <button id="reset" type="button">Réinitialiser</button>
+      </div>
+      <div class="results-bar">
+        <p id="count" role="status"></p>
+        <label class="selection-filter"><input id="saved-only" type="checkbox"> Ma sélection uniquement</label>
+      </div>
+      <ul id="results" class="results"></ul>
+    </section>
+    <section id="opportunites" class="explorer opportunity-section" aria-labelledby="opportunity-title">
+      <h2 id="opportunity-title">Index des expertises</h2>
+      <ul id="opportunity-index" class="opportunity-index"></ul>
+    </section>
+    <noscript>Activez JavaScript pour explorer les profils.</noscript>
+  </main>
+
+  <footer class="shell footer">Fondation HYSTERESIS <span>Conversations Inspirantes</span></footer>
+
+  <dialog id="profile" aria-labelledby="profile-name">
+    <div class="dialog-bar">
+      <button id="save-profile" type="button" aria-pressed="false">Ajouter à ma sélection</button>
+      <button id="close" type="button" aria-label="Fermer la fiche" autofocus>Fermer <span aria-hidden="true">×</span></button>
+    </div>
+    <article id="profile-content"></article>
+    <nav class="profile-nav" aria-label="Navigation entre les profils">
+      <button id="previous" type="button">← Précédent</button>
+      <button id="next" type="button">Suivant →</button>
+    </nav>
+  </dialog>
+</body>
+</html>
