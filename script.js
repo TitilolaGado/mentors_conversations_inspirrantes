@@ -151,12 +151,11 @@ const profiles = [
  "skills": [
       "Gouvernance d’entreprise",
       "Développement commercial",
-      "Entrepreneuriat et innovation",
     ],
 "domain": "CEO de la Société Sale Peace · Fondateur de la marque SINA",
 "categories": [
   "Agroéconomie et entrepreneuriat",
-  "Stratégie et développement d’entreprise"
+  "Stratégie et développement d’entreprise",
 ],
     "sections": [
       {
