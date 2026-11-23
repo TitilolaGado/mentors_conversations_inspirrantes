@@ -147,10 +147,12 @@ const profiles = [
     "id": "auguste-issa-kora",
     "first": "Auguste Issa",
     "last": "KORA",
-    "intro": "Entrepreneur depuis plus de vingt ans, il a créé et développé des entreprises au Bénin et à l’international. Son parcours couvre la stratégie, le développement commercial, ainsi que la production et la transformation dans les secteurs cosmétique et agroalimentaire. Mentor en entrepreneuriat, il accompagne aussi des entrepreneurs, des start-up et des PME.",
+    "intro": " Entrepreneur depuis plus de vingt ans, il a créé et développé des entreprises au Bénin et à l’international. Son parcours couvre la stratégie, le développement commercial, la production et transformation Cosmetique et agroalimentaire. Mentor en Entrepreneuriat, il accompagne aussi des entrepreneurs, des start-up et des PME.",
 "skills": [
-  "Gouvernance d’entreprise",
-  "Développement commercial",
+  "CEO SOCIÉTÉ SALE PEACE",
+"Fondateur de la marque SINA",
+"Agroéconomie et entrepreneuriat", 
+"Stratégie et développement d’entreprise",
   "Entrepreneuriat et innovation"
 ],
 "domain": "CEO de la Société Sale Peace · Fondateur de la marque SINA",
