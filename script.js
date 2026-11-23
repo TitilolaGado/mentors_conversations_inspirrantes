@@ -147,18 +147,17 @@ const profiles = [
     "id": "auguste-issa-kora",
     "first": "Auguste Issa",
     "last": "KORA",
-    "intro": " Entrepreneur depuis plus de vingt ans, il a créé et développé des entreprises au Bénin et à
-l’international. Son parcours couvre la stratégie, le développement commercial, la production et transformation Cosmetique et agroalimentaire. Mentor en Entrepreneuriat, il accompagne aussi des entrepreneurs, des start-up et des PME.",
-    "skills": [
-      "Gouvernance d’entreprise",
-      "Développement commercial",
-      "Entrepreneuriat et innovation"
-    ],
-    "domain": "Dirigeant d’entreprise",
-    "categories": [
-      "Agroéconomie et entrepreneuriat",
-      "Stratégie et développement d’entreprise"
-    ],
+    "intro": "Entrepreneur depuis plus de vingt ans, il a créé et développé des entreprises au Bénin et à l’international. Son parcours couvre la stratégie, le développement commercial, ainsi que la production et la transformation dans les secteurs cosmétique et agroalimentaire. Mentor en entrepreneuriat, il accompagne aussi des entrepreneurs, des start-up et des PME.",
+"skills": [
+  "Gouvernance d’entreprise",
+  "Développement commercial",
+  "Entrepreneuriat et innovation"
+],
+"domain": "CEO de la Société Sale Peace · Fondateur de la marque SINA",
+"categories": [
+  "Agroéconomie et entrepreneuriat",
+  "Stratégie et développement d’entreprise"
+],
     "sections": [
       {
         "title": "Comment je peux vous accompagner",
@@ -175,7 +174,7 @@ l’international. Son parcours couvre la stratégie, le développement commerci
     ],
     "links": {
       "Appeler": "tel:+2290197748888",
-      "WhatsApp": "https://wa.me/tel:+33695328790",
+      "WhatsApp": "https://wa.me/33695328790",
       "LinkedIn": "https://www.linkedin.com/in/auguste-issa-kora-9a8008126?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
     "phone": "+229 01 97 74 88 88"
