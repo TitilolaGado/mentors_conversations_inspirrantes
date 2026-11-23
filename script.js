@@ -147,7 +147,8 @@ const profiles = [
     "id": "auguste-issa-kora",
     "first": "Auguste Issa",
     "last": "KORA",
-    "intro": "Entrepreneur depuis plus de vingt ans, il a créé et développé des entreprises au Bénin et à l’international. Son parcours couvre la stratégie, le développement commercial et la transformation agroalimentaire. Il accompagne aussi des entrepreneurs, des start-up et des PME.",
+    "intro": " Entrepreneur depuis plus de vingt ans, il a créé et développé des entreprises au Bénin et à
+l’international. Son parcours couvre la stratégie, le développement commercial, la production et transformation Cosmetique et agroalimentaire. Mentor en Entrepreneuriat, il accompagne aussi des entrepreneurs, des start-up et des PME.",
     "skills": [
       "Gouvernance d’entreprise",
       "Développement commercial",
@@ -174,8 +175,8 @@ const profiles = [
     ],
     "links": {
       "Appeler": "tel:+2290197748888",
-      "WhatsApp": "https://wa.me/2290197748888",
-      "LinkedIn": "https://lnkd.in/p/eGV-PSKY"
+      "WhatsApp": "https://wa.me/tel:+33695328790",
+      "LinkedIn": "https://www.linkedin.com/in/auguste-issa-kora-9a8008126?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
     "phone": "+229 01 97 74 88 88"
   }
